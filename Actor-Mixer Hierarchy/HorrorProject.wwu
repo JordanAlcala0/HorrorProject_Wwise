@@ -448,6 +448,136 @@
 										</GroupingBehaviorList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<SwitchContainer Name="CAT_ETAT_01" ID="{E897C1B0-FCFE-4A52-AAFC-FFD4C374FC38}" ShortID="573010830">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{302C1256-D4E7-477E-8EE6-4E6A2CC6DEE2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="CAT_ATTACK" ID="{0A692A99-5B9C-47D8-BCE7-C472BAB71ADD}" ShortID="335532106">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="33 Cat Screaming In Pain Or Fighting 01" ID="{735C4DFC-A4B9-4C7B-8C85-380282F81CF1}" ShortID="868260186">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="33 Cat Screaming In Pain Or Fighting 01" ID="{F13473F1-F09A-4330-9140-124F5B2A0910}">
+															<Language>SFX</Language>
+															<AudioFile>33 Cat Screaming In Pain Or Fighting 01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="487427763"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="33 Cat Screaming In Pain Or Fighting 01" ID="{F13473F1-F09A-4330-9140-124F5B2A0910}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="33 Cat Screaming In Pain Or Fighting 01 1" ID="{50ED899F-6E92-4C0B-802E-334F5F4F5EC4}" ShortID="840924668">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="33 Cat Screaming In Pain Or Fighting 01 1" ID="{542946D1-333D-408D-AAD3-63D0A6CD3DB8}">
+															<Language>SFX</Language>
+															<AudioFile>33 Cat Screaming In Pain Or Fighting 01 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="872405378"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="33 Cat Screaming In Pain Or Fighting 01 1" ID="{542946D1-333D-408D-AAD3-63D0A6CD3DB8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<BlendContainer Name="CAT_IDLE" ID="{A0B1A35E-1807-4F8F-8AF4-6825FA70D6F1}" ShortID="971882815">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Animals, Cat Domestic, Cat Purring 01 SND124058" ID="{EAEB6D37-B0F3-483F-826E-C2AB06FE37CE}" ShortID="602133266">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Cat Domestic, Cat Purring 01 SND124058" ID="{8AABAFEB-EB72-4EDA-8B57-7AED04C56D88}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Cat Domestic, Cat Purring 01 SND124058.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="731629761"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Cat Domestic, Cat Purring 01 SND124058" ID="{8AABAFEB-EB72-4EDA-8B57-7AED04C56D88}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="CAT_IDLE" ID="{A0B1A35E-1807-4F8F-8AF4-6825FA70D6F1}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="CAT_ATTACK" ID="{0A692A99-5B9C-47D8-BCE7-C472BAB71ADD}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -1568,7 +1698,6 @@
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Beeps, Appliance, Electric Stove SND42533" ID="{D4420A67-7386-4801-AB53-2E458A90C240}"/>
