@@ -37,7 +37,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Music_Pop Monster0" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}" ShortID="379294405">
+								<MusicSegment Name="Music_Menu" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}" ShortID="379294405">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="59041.6666666667"/>
 									</PropertyList>
@@ -50,30 +50,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Music_Pop Monster0" ID="{BBFC0E21-8113-46F9-8A3C-24BA1EE4F448}" ShortID="217175182">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Musique_Menu" ID="{A43B30A2-882E-4F9F-8E8D-4594E3088310}" ShortID="282577439">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Music_Pop Monster0" ID="{C78D031C-9C6F-420E-A293-259281380C57}">
+												<AudioFileSource Name="Musique_Menu" ID="{E3C07096-2777-4012-BFCB-D765B703E651}">
 													<Language>SFX</Language>
-													<AudioFile>Music_Pop Monster0.wav</AudioFile>
+													<AudioFile>Musique_Menu.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="355515479"/>
+														<MediaID ID="366166525"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{408D05C5-B431-47A5-A263-C3B3E020859A}">
+												<MusicTransition Name="Root" ID="{5E7CD870-CC8C-4A1E-A2DF-59AE5B2FF0FB}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -84,39 +77,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{BA0FD60E-064C-4F94-885E-3EEA266AB460}">
+															<MusicTrackSequence Name="" ID="{674B1B75-C315-41AA-9B50-7392E237395D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Music_Pop Monster0" ID="{5046FD09-0FF4-4C21-8698-F3769AAE2ACA}">
+																				<MusicClip Name="Musique_Menu" ID="{AADF0A1C-CC70-4E74-9AB7-2FA73DDB9E89}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="59041.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Music_Pop Monster0" ID="{C78D031C-9C6F-420E-A293-259281380C57}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{4BE23C44-D87D-4477-8286-BCC8753C74E4}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>59.0416666666667</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
+																					<AudioSourceRef Name="Musique_Menu" ID="{E3C07096-2777-4012-BFCB-D765B703E651}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -170,7 +142,7 @@
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Music_Pop Monster0" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}"/>
+											<SegmentRef Name="Music_Menu" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
