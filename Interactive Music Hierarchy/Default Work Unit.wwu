@@ -39,7 +39,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Menu" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}" ShortID="379294405">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="59041.6666666667"/>
+										<Property Name="EndPosition" Type="Real64" Value="32000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -113,7 +113,7 @@
 													<MusicCue Name="Exit Cue" ID="{A91900B1-4FA7-4955-AA7D-5A1C4F2CD326}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="59041.6666666667"/>
+															<Property Name="TimeMs" Type="Real64" Value="31980.0125832768"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -137,9 +137,19 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{353FA399-AEBB-4D72-ABAD-9411DC7AE0FD}" ShortID="418755566">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0E1C84C4-F989-40C6-8758-B9ABC57E1D6B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{98395E16-32B8-4FB1-B02D-0D2C014DC3C4}" ShortID="518433611">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Music_Menu" ID="{866C503A-39D3-4D68-A0B5-25086DF4EF3B}"/>
