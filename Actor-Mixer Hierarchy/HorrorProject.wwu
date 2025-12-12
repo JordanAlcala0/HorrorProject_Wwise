@@ -1706,50 +1706,6 @@
 													<ObjectRef Name="Capteur_Cardiaque" ID="{E9CF082E-4BAE-48EB-ACDA-ADB856174C04}" WorkUnitID="{64B8624D-6722-44EF-8FAB-A3853F474EEF}"/>
 												</Reference>
 											</ReferenceList>
-											<ObjectLists>
-												<ObjectList Name="RTPC">
-													<Reference>
-														<Local>
-															<RTPC Name="" ID="{626E2E1A-82B6-48EC-A15F-CEAA9A0E63C5}" ShortID="808385090">
-																<PropertyList>
-																	<Property Name="PropertyName" Type="string" Value="Volume"/>
-																</PropertyList>
-																<ReferenceList>
-																	<Reference Name="ControlInput">
-																		<ObjectRef Name="BPM" ID="{49E7D729-0E23-4BC8-9F5A-4818C7DB2C35}" WorkUnitID="{64B8624D-6722-44EF-8FAB-A3853F474EEF}"/>
-																	</Reference>
-																	<Reference Name="Curve">
-																		<Custom>
-																			<Curve Name="" ID="{48FAF8A8-CC99-4493-9AA4-73E122AE1364}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="3"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>40</XPos>
-																						<YPos>-0</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>110</XPos>
-																						<YPos>-6</YPos>
-																						<Flags>0</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>180</XPos>
-																						<YPos>1.05413</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</Custom>
-																	</Reference>
-																</ReferenceList>
-															</RTPC>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Beeps, Appliance, Electric Stove SND42533" ID="{D4420A67-7386-4801-AB53-2E458A90C240}"/>
