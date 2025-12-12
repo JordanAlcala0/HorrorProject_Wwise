@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MENU" ID="{B480A017-02EC-4BA3-8AE3-CD21457735E4}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+									<ObjectRef Name="MENU" ID="{186ACDD7-D1B1-425D-A3D0-8D1839EF3C7B}" WorkUnitID="{52C81E46-EBB7-496A-A77B-631B3755E451}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GAMEPLAY_ATTACK" ID="{B21D9493-7F21-4EC1-9C05-9FA5B84C0F71}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+									<ObjectRef Name="GAMEPLAY_ATTACK" ID="{736B6730-6853-4F06-9D1A-407D3EDA814B}" WorkUnitID="{52C81E46-EBB7-496A-A77B-631B3755E451}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,7 +39,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="VICTORY" ID="{1A117249-FC6C-4A8E-A100-1F9BE42B7D99}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+									<ObjectRef Name="VICTORY" ID="{9C2B36ED-A8A4-4A77-AA57-539DA498FEA3}" WorkUnitID="{52C81E46-EBB7-496A-A77B-631B3755E451}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,7 +53,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GAME_OVER" ID="{3C7B659E-BAE7-4071-A649-E54BC34011CE}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+									<ObjectRef Name="GAME_OVER" ID="{906722A9-B150-4779-A002-DDB7AFDAFE9B}" WorkUnitID="{52C81E46-EBB7-496A-A77B-631B3755E451}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -78,21 +78,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GAMEPLAY_CHILL" ID="{63A25E71-30D6-41D8-A5E7-1AF51EFCAA87}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="OnMusicOneMinLeftEventHandler" ID="{7949C8EA-DAD3-494C-8478-AFEA27EBCDD4}">
-					<ChildrenList>
-						<Action Name="" ID="{3CB829C4-D075-4EF0-97CF-2FDD208BDE95}" ShortID="421471503">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GAMEPLAY_1MIN_LEFT" ID="{BE4076E2-D1DC-403A-A0DF-98BE5A1FD351}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+									<ObjectRef Name="GAMEPLAY_CHILL" ID="{0AEB3A72-A61D-4D92-BEE8-ABE64DDE326D}" WorkUnitID="{52C81E46-EBB7-496A-A77B-631B3755E451}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
