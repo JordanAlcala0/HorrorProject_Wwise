@@ -59,6 +59,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OnDisjoncteurIdleStopEventHandler" ID="{6CC51373-B0E9-488F-AC5A-AE1ACEE015EA}">
+					<ChildrenList>
+						<Action Name="" ID="{7A2718DA-5C9E-40B0-99DA-362F1881B04A}" ShortID="900601308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DISJONCTEUR_IDLE" ID="{26402B71-FEF6-42E4-A2BE-654932617609}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -36,6 +36,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OnAmbianceSalleEntrepotStopEventHandler" ID="{1D218BA6-D239-4A5B-A199-EEF392EB5950}">
+					<ChildrenList>
+						<Action Name="" ID="{21325591-6866-4CD2-88B4-812BBB69A4BA}" ShortID="1054944239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIANCE_SALLE_ENTREPOT" ID="{FEF6051B-3DB9-4949-A76B-A2CB6F994873}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnAmbianceSalleGardienStopEventHandler" ID="{42F78B36-CA0D-45DD-84B2-2E807E2332F2}">
+					<ChildrenList>
+						<Action Name="" ID="{719C4A00-4797-4949-8634-DFC945709607}" ShortID="1073642193">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIANCE_SALLE_GARDIEN" ID="{0AE40A2D-5333-4BD9-B7D4-9219DB4CC0AD}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnAmbianceSallePrincipaleStopEventHandler" ID="{42C0879A-FF06-483E-AED2-29FC83CC0DDA}">
+					<ChildrenList>
+						<Action Name="" ID="{89078917-E58E-4C20-87BE-01066AFC8F6E}" ShortID="864797275">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIANCE_SALLE_PRINCIPALE" ID="{2357EC56-2203-4C4D-BA67-2005CD4C65D8}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

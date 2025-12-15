@@ -65,6 +65,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OnLightIdleStopEventHandler" ID="{F62216D8-FBB5-48B0-8759-2CF5F079B653}">
+					<ChildrenList>
+						<Action Name="" ID="{9A02D958-F2E3-4745-A779-8B81020A2924}" ShortID="77679384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LIGHT_IDLE" ID="{016C1062-6EBD-4F95-8BCB-C3B7E3AECEDA}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

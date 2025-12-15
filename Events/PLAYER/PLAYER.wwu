@@ -25,6 +25,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OnCapteurCardiaqueStopEventHandler" ID="{131738EE-7B77-4FF0-AAC1-A7B22EF59797}">
+					<ChildrenList>
+						<Action Name="" ID="{19E1F250-AEF3-4E21-9A37-06DF1C1F895C}" ShortID="745196822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CapteurCardiaque_BPM" ID="{16185985-DFD5-4DD5-9E59-45491259E137}" WorkUnitID="{2544A415-39A9-4EAC-AF0E-5D37F526FD5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
