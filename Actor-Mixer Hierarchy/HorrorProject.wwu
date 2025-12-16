@@ -2342,55 +2342,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="DISJONCTEUR_REPAIR" ID="{FC0F7D2A-8D10-42D3-B22A-A9FF6743482B}" ShortID="898953979">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{CC429A6D-4596-45EB-A533-81A3AD7E703B}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="1"/>
-															<Property Name="Min" Type="Real64" Value="-1"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="User Interface, Beep, Positive, Access Granted, Futuristic Tech, Menu Input Response 01 SND121670" ID="{206E460F-D689-4066-AE35-2BF13BE51685}" ShortID="158957271">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="User Interface, Beep, Positive, Access Granted, Futuristic Tech, Menu Input Response 01 SND121670" ID="{94F75251-F067-47D6-A0FB-0357B8EB1A26}">
-													<Language>SFX</Language>
-													<AudioFile>User Interface, Beep, Positive, Access Granted, Futuristic Tech, Menu Input Response 01 SND121670.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="299999023"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="User Interface, Beep, Positive, Access Granted, Futuristic Tech, Menu Input Response 01 SND121670" ID="{94F75251-F067-47D6-A0FB-0357B8EB1A26}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
 								<BlendContainer Name="DISJONCTEUR_IDLE" ID="{26402B71-FEF6-42E4-A2BE-654932617609}" ShortID="486065973">
 									<PropertyList>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
@@ -2417,9 +2368,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="43 Static - Sporadic Sparks X3 1" ID="{A7848071-3BF3-41C9-B2FA-B1D042285EEC}" ShortID="492638068">
+										<Sound Name="Disjoncteur_Idle" ID="{0F75DAA8-D884-4C78-8D4D-E8DD42E0EEAF}" ShortID="266580994">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2430,16 +2386,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="43 Static - Sporadic Sparks X3 1" ID="{4823425B-2BB7-4283-9CB6-3A4709CE7EAC}">
+												<AudioFileSource Name="Disjoncteur_Idle" ID="{47151EF2-0D71-4418-B832-58D5327EC7A3}">
 													<Language>SFX</Language>
-													<AudioFile>43 Static - Sporadic Sparks X3 1.wav</AudioFile>
+													<AudioFile>Disjoncteur_Idle.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="819384725"/>
+														<MediaID ID="226125114"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="43 Static - Sporadic Sparks X3 1" ID="{4823425B-2BB7-4283-9CB6-3A4709CE7EAC}" Platform="Linked"/>
+												<ActiveSource Name="Disjoncteur_Idle" ID="{47151EF2-0D71-4418-B832-58D5327EC7A3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2469,7 +2425,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Electricity, Zap, Sparks, Shock, Long, Complex, Fizzy, Faulty Wire, Power Out SND133305" ID="{A96E67CA-6FEC-4573-89B2-059073DE7D13}" ShortID="234472766">
+										<Sound Name="Disjoncteur_Broken" ID="{709A0841-A8B5-4053-A1D4-0E2032118346}" ShortID="891919183">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
@@ -2479,42 +2435,120 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Electricity, Zap, Sparks, Shock, Long, Complex, Fizzy, Faulty Wire, Power Out SND133305" ID="{614C95D6-3933-4CA5-A3B1-8471A374CD94}">
+												<AudioFileSource Name="Disjoncteur_Broken" ID="{A9E3CBDE-EE8E-4F72-AFFB-6A9EBD8295F1}">
 													<Language>SFX</Language>
-													<AudioFile>Electricity, Zap, Sparks, Shock, Long, Complex, Fizzy, Faulty Wire, Power Out SND133305.wav</AudioFile>
+													<AudioFile>Disjoncteur_Broken.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="882820813"/>
+														<MediaID ID="517659409"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Electricity, Zap, Sparks, Shock, Long, Complex, Fizzy, Faulty Wire, Power Out SND133305" ID="{614C95D6-3933-4CA5-A3B1-8471A374CD94}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Animals, Insect, Fly, Electrocution, Slow, Zapper, Close Up SND14766" ID="{4DAA19B9-A5AE-42E8-84AA-12A495BF6520}" ShortID="1044920342">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Animals, Insect, Fly, Electrocution, Slow, Zapper, Close Up SND14766" ID="{971DDD24-ECE2-4867-8128-2DC70A042CEF}">
-													<Language>SFX</Language>
-													<AudioFile>Animals, Insect, Fly, Electrocution, Slow, Zapper, Close Up SND14766.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="322805983"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Animals, Insect, Fly, Electrocution, Slow, Zapper, Close Up SND14766" ID="{971DDD24-ECE2-4867-8128-2DC70A042CEF}" Platform="Linked"/>
+												<ActiveSource Name="Disjoncteur_Broken" ID="{A9E3CBDE-EE8E-4F72-AFFB-6A9EBD8295F1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<RandomSequenceContainer Name="DISJONCTEUR_REPAIR" ID="{8B68A38A-DE70-41EC-BC3A-51C67081E07A}" ShortID="928447979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Disjoncteur_Repair_001" ID="{D9B49E13-CD2D-42CE-8141-D69EBBEC66FC}" ShortID="312590353">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Disjoncteur_Repair_001" ID="{574DAB86-D094-4405-9481-8D40EC656FB4}">
+													<Language>SFX</Language>
+													<AudioFile>Disjoncteur_Repair_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421127219"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Disjoncteur_Repair_001" ID="{574DAB86-D094-4405-9481-8D40EC656FB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Disjoncteur_Repair_002" ID="{0CBB5E0D-1BE3-4B50-ACDB-00C7FFF80BC9}" ShortID="195449131">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Disjoncteur_Repair_002" ID="{4C6B7712-8807-41C8-8F83-4980A1DFD8BE}">
+													<Language>SFX</Language>
+													<AudioFile>Disjoncteur_Repair_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="829510687"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Disjoncteur_Repair_002" ID="{4C6B7712-8807-41C8-8F83-4980A1DFD8BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Disjoncteur_Repair_003" ID="{F477872E-87BB-40E7-9F4F-ABA0D981C442}" ShortID="713887541">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Disjoncteur_Repair_003" ID="{2806052B-E3A2-4BB6-B251-737712738B8A}">
+													<Language>SFX</Language>
+													<AudioFile>Disjoncteur_Repair_003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="790924953"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Disjoncteur_Repair_003" ID="{2806052B-E3A2-4BB6-B251-737712738B8A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Disjoncteur_Repair_004" ID="{89A40023-9AE6-4CD9-A1BF-A4774A63A206}" ShortID="268487742">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B622A37-7509-4491-AD13-5BB742ACA0F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Disjoncteur_Repair_004" ID="{ADCA2096-42D4-45EC-8F40-96E121E84778}">
+													<Language>SFX</Language>
+													<AudioFile>Disjoncteur_Repair_004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="285402757"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Disjoncteur_Repair_004" ID="{ADCA2096-42D4-45EC-8F40-96E121E84778}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
