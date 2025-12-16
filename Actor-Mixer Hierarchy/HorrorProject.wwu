@@ -1653,7 +1653,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="3012_01_Light buzz 1" ID="{AF987B36-03BB-42CC-8AD0-8F1D7D529DAE}" ShortID="611213102">
+										<Sound Name="Light_Idle" ID="{8990ED42-7B23-43E3-8D05-D4CBB09EE535}" ShortID="471554900">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
@@ -1666,16 +1666,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="3012_01_Light buzz 1" ID="{9782FABB-FB4B-4E13-A5D0-8BA54A630CBF}">
+												<AudioFileSource Name="Light_Idle" ID="{7385BB78-5A83-4ABA-8C8C-E52D3228129E}">
 													<Language>SFX</Language>
-													<AudioFile>3012_01_Light buzz 1.wav</AudioFile>
+													<AudioFile>Light_Idle.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="56696227"/>
+														<MediaID ID="745952057"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="3012_01_Light buzz 1" ID="{9782FABB-FB4B-4E13-A5D0-8BA54A630CBF}" Platform="Linked"/>
+												<ActiveSource Name="Light_Idle" ID="{7385BB78-5A83-4ABA-8C8C-E52D3228129E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1705,7 +1705,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Energy - lights turning on in a hangar" ID="{9236A073-EE40-49BC-A607-065CF4747E88}" ShortID="979936496">
+										<Sound Name="Light_On" ID="{587E112F-0B66-4A7B-87CF-0BE360DD9137}" ShortID="807152776">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
@@ -1715,16 +1715,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Energy - lights turning on in a hangar" ID="{D38B72F3-82D8-47A4-879B-5096AC49FC9C}">
+												<AudioFileSource Name="Light_On" ID="{75CD1E46-E00D-4F66-947C-758BE5FBC2C1}">
 													<Language>SFX</Language>
-													<AudioFile>Energy - lights turning on in a hangar.wav</AudioFile>
+													<AudioFile>Light_On.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="136781271"/>
+														<MediaID ID="389322274"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Energy - lights turning on in a hangar" ID="{D38B72F3-82D8-47A4-879B-5096AC49FC9C}" Platform="Linked"/>
+												<ActiveSource Name="Light_On" ID="{75CD1E46-E00D-4F66-947C-758BE5FBC2C1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1754,7 +1754,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Mechanical, Switch, Big Lever, Spotlight, Long Reverb SND11723" ID="{D5EEDAF5-1FC0-4DA5-B664-92180CF90018}" ShortID="830066354">
+										<Sound Name="Light_Off" ID="{76B42C23-805C-4F8F-805B-09E1F367A047}" ShortID="154422337">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40CD2789-E424-4406-8400-7B357F51A97F}"/>
@@ -1764,16 +1764,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Mechanical, Switch, Big Lever, Spotlight, Long Reverb SND11723" ID="{AF833192-EF3F-4A18-9EBD-25550EA5A31B}">
+												<AudioFileSource Name="Light_Off" ID="{D60C0B7F-C7A1-41DC-B3E1-288D8FDF0A8A}">
 													<Language>SFX</Language>
-													<AudioFile>Mechanical, Switch, Big Lever, Spotlight, Long Reverb SND11723.wav</AudioFile>
+													<AudioFile>Light_Off.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="313595556"/>
+														<MediaID ID="1035082027"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Mechanical, Switch, Big Lever, Spotlight, Long Reverb SND11723" ID="{AF833192-EF3F-4A18-9EBD-25550EA5A31B}" Platform="Linked"/>
+												<ActiveSource Name="Light_Off" ID="{D60C0B7F-C7A1-41DC-B3E1-288D8FDF0A8A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
